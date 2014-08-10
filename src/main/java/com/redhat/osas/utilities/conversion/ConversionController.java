@@ -23,5 +23,6 @@ public class ConversionController {
     public void clearButtonAction(ActionEvent actionEvent) {
         toConvert.setText("");
         converted.setText("");
+        toConvert.requestFocus();
     }
 }
