@@ -15,5 +15,13 @@ public class ConversionController {
     @FXML
     protected void handleSubmitButtonAction(ActionEvent event) {
         converted.setText(StringEscapeUtils.unescapeHtml4(toConvert.getText()));
+        converted.requestFocus();
+        converted.selectAll();
+    }
+
+    @FXML
+    public void clearButtonAction(ActionEvent actionEvent) {
+        toConvert.setText("");
+        converted.setText("");
     }
 }

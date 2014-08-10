@@ -28,7 +28,8 @@
     <HBox spacing="10" alignment="bottom_right"
           GridPane.columnIndex="1" GridPane.rowIndex="4">
         <Button text="Convert!"
-                onAction="#handleSubmitButtonAction"/>
+                onAction="#handleSubmitButtonAction"/><Button text="Clear"
+                                                              onAction="#clearButtonAction" />
     </HBox>
 
 </GridPane>
